@@ -3,6 +3,7 @@
   "description": "Gatsby DatoCMS creative portfolio demo",
   "version": "1.0.0",
   "author": "Stefano Verna <s.verna@datocms.com>",
+  "deploy": "gatsby build --prefix-paths && gh-pages -d public",
   "dependencies": {
     "dotenv": "^8.1.0",
     "gatsby": "^2.15.30",
